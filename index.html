@@ -7,43 +7,69 @@
   <link rel="stylesheet" href="styles.css">
   <script src="scripts.js"></script>
   <style>
-  body {background-color: lightyellow;
-        color: black;
-  }
+    body {
+      background-color: #f5f1dc;   /* page background color */
+      color: #2b2b2b;              /* contrasting font color */
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
 
-  .section {
-    margin: 20px 0;
-    padding: 15px;
-    border: 3px dotted white;
-    border-radius: 12px;
-  }
+    .section {
+      margin: 20px 0;
+      padding: 15px;
+      border: 3px dotted #4b7bec;  /* non-solid, non-black border */
+      border-radius: 12px;         /* rounded corners */
+      background-color: #ffffff;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #3867d6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
+
 <body>
   <header>
-    <!--repeated top of page info-->
     <h1>Connor McCune</h1>
   </header>
-  <div>
-<h3>Labs</h3>
-    Lab1
-    lab2
-    lab3
+
+  <!-- Labs Section -->
+  <div class="section">
+    <h3>Labs</h3>
+    <ul>
+      <li><a href="labs/lab1.html">Lab 1</a></li>
+      <li><a href="labs/lab2.html">Lab 2</a></li>
+      <li><a href="labs/lab3.html">Lab 3</a></li>
+    </ul>
   </div>
-  <div>
-<h3>Homework</h3>
-    Hw1
+
+  <!-- Homework Section -->
+  <div class="section">
+    <h3>Homework</h3>
+    <ul>
+      <li><a href="homework/hw1.html">Homework 1</a></li>
+    </ul>
   </div>
+
   <nav>
-    <!--repeated navigation here, may also move to header-->
     Nav area
   </nav>
+
   <main>
-    <!--main content goes here-->
     Main content
   </main>
+
   <footer>
-    <!--repeated bottom of page content goes here-->
     Footer area
   </footer>
 </body>
