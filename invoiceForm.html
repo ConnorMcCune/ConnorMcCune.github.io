@@ -2,8 +2,45 @@
 <html>
   <head>
     <title>Invoice Form</title>
-  </head>
+    <style>
+      body{
+        font-family: serif;
+        padding: 40px;
+      }
 
+      h1{
+        text-align: center;
+      }
+
+      .form-container{
+        display: grid;
+        grid-template-colums: 3fr 1fr 1fr 1fr;
+        border: 2px solid #2d3e5f;
+      }
+
+      .order-number{
+        grid-column: 1 / span 4;
+      }
+
+      .order-date{
+        grid-column: 1 / span 4;
+      }
+
+      .header{
+        font-weight: bold;
+      }
+
+      .divider{
+        grid-column: 1 / span 4;
+        background: #2d3e5f;
+        height: 20px;
+      }
+
+      .label{
+        grid-column: 1 / span 4;
+      }
+    </style>
+  </head>
   <body>
     <h1>Customer Order Form</h1>
 
