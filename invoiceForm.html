@@ -12,13 +12,10 @@
         text-align: center;
       }
 
-      .form-container {
-        display: grid;
-        grid-template-columns: 3fr 1fr 1fr 1fr;
-        gap: 10px;
-        border: 2px solid #2d3e5f;
-        padding: 10px;
-        grid-auto-rows: minmax(30px, auto);
+      .form-container > div {
+      border: 1px solid #2d3e5f; /* dark blue border */
+      padding: 5px;               /* optional, for spacing */
+      box-sizing: border-box;     /* ensures borders don’t break the grid */
       }
 
       .order-number{
