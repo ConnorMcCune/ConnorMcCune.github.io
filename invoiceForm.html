@@ -5,25 +5,47 @@
     <style>
       body{
         font-family: serif;
-        padding: 40px;
+        padding: 30px;
       }
 
       h1{
         text-align: center;
       }
 
-      .form-container > div {
-      border: 1px solid #2d3e5f; /* dark blue border */
-      padding: 5px;               /* optional, for spacing */
-      box-sizing: border-box;     /* ensures borders don’t break the grid */
+      .form-container{
+        display: grid;
+        grid-template-columns: 50% 20% 15% 15%;
+
+        grid-template-rows:
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em
+        3em;
+
+        align-items: center;
+
+        border: 2px solid #2d3e5f;
+      }
+
+      .form-container div{
+        border: 1px solid #2d3e5f;
+        padding: 8px;
       }
 
       .order-number{
-        grid-column: 1 / span 4;
+        grid-column: 1 / 5;
       }
 
       .order-date{
-        grid-column: 1 / span 4;
+        grid-column: 1 / 5;
       }
 
       .header{
@@ -31,13 +53,13 @@
       }
 
       .divider{
-        grid-column: 1 / span 4;
+        grid-column: 1 / 5;
         background: #2d3e5f;
-        height: 20px;
+        height: 1.5em;
       }
 
       .label{
-        grid-column: 1 / span 4;
+        grid-column: 1 / 4;
       }
     </style>
   </head>
