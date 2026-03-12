@@ -6,6 +6,22 @@
   <title>Food Pyramid</title>
   <link rel="stylesheet" href="styles.css">
   <script src="scripts.js"></script>
+  <style>
+    table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    th, td {
+    border: 1px solid black;
+    padding: 8px;
+    }
+    .green-back{
+      background-color: #green;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -15,26 +31,17 @@
     
   </nav>
   <main>
-    table {
-    border-collapse: collapse; /* merges borders */
-    border: 2px solid black;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-}
     <table>
       <caption>USDA Food Pyramid</caption>
       <thead>
-        <tr>
+        <tr class="green-back">
           <th> </th>
           <th>Serving Guidelines</th>
           <th> </th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="green-back">
           <td>Food Groups</td>
           <td>2005-2010</td>
           <td>2011-present</td>
