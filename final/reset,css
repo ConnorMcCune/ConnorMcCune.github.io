@@ -1,0 +1,43 @@
+/* reset.css */
+
+/* Remove default margins, padding, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default link styling */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Make images behave */
+img, video {
+    max-width: 100%;
+    display: block;
+}
+
+/* Set base font inheritance */
+body {
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+/* Remove default button/input styles */
+button, input, textarea, select {
+    font: inherit;
+    border: none;
+    background: none;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
