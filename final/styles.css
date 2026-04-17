@@ -4,6 +4,18 @@ body {
     background-color: #0d0d0d;
     color: #e6e6e6;
 }
+@media (max-width: 1023px) {
+  body {
+    background-color: #d6e4ff; /* light blue */
+    font-family: Georgia, serif;
+  }
+}
+@media (max-width: 767px) {
+  body {
+    background-color: #ffd6d6; /* light red */
+    font-family: Arial, sans-serif;
+  }
+}
 header, nav, section, footer {
     padding: 20px;
 }
