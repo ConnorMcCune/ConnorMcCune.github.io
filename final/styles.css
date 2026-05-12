@@ -104,7 +104,8 @@ nav ul {
 }
 
 /* Show dropdown on hover */
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
     display: block;
 }
 
