@@ -107,3 +107,57 @@ nav ul {
 .dropdown:hover .dropdown-menu {
     display: block;
 }
+
+/* Weapons Table Styling */
+.weapons-section {
+  padding: 20px;
+}
+
+.weapons-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #111;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.weapons-table caption {
+  caption-side: top;
+  padding: 10px;
+  font-size: 1.4rem;
+  color: #00eaff;
+  text-shadow: 0 0 5px #00eaff;
+}
+
+.weapons-table th,
+.weapons-table td {
+  padding: 12px 15px;
+  border: 1px solid #333;
+}
+
+.weapons-table thead th {
+  background-color: #0a0f14;
+  color: #00eaff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.weapons-table tbody tr:nth-child(even) {
+  background-color: #1a1f24;
+}
+
+.weapons-table tbody tr:hover {
+  background-color: #002b36;
+  transition: 0.2s;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .weapons-table th,
+  .weapons-table td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+}
