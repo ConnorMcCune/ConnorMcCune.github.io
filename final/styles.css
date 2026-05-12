@@ -161,3 +161,64 @@ nav ul {
     font-size: 0.9rem;
   }
 }
+
+/* Crafting Page */
+.crafting-section {
+  padding: 20px;
+  color: #e0e0e0;
+}
+
+.crafting-section h2 {
+  color: #00eaff;
+  text-shadow: 0 0 6px #00eaff;
+  margin-bottom: 15px;
+}
+
+.crafting-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crafting-list > li {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.15);
+}
+
+.crafting-list > li > strong {
+  font-size: 1.3rem;
+  color: #00eaff;
+}
+
+.crafting-list ul {
+  list-style-type: square;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.crafting-list ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 10px;
+  background: #1a1f24;
+  border-left: 3px solid #00eaff;
+  border-radius: 4px;
+}
+
+.crafting-list li ul li {
+  margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .crafting-list > li {
+    padding: 10px;
+  }
+  .crafting-list ul ul {
+    font-size: 0.95rem;
+  }
+}
