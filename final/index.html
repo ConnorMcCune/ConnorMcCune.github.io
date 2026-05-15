@@ -33,6 +33,8 @@
     <li><a href="https://connormccune.github.io/final/updates.html" target="_blank">Updates</a></li>
 
     <li><a href="https://connormccune.github.io/final/support.html" target="_blank">Support</a></li>
+
+    <li><button id="theme-toggle" class="theme-btn">Dark/Light Mode Toggle</button></li>
   </ul>
 </nav>
 
@@ -106,6 +108,15 @@
 <footer>
     <p>© 2026 Abiotic Factor Fan Site</p>
 </footer>
+
+<script>
+document.querySelectorAll(".accordion-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const content = btn.nextElementSibling;
+    content.style.display = content.style.display === "block" ? "none" : "block";
+  });
+});
+</script>
 
 </body>
 </html>
