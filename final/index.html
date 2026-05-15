@@ -110,13 +110,14 @@
 </footer>
 
 <script>
-document.querySelectorAll(".accordion-btn").forEach(btn => {
-  btn.addEventListener("click", () => {
-    const content = btn.nextElementSibling;
-    content.style.display = content.style.display === "block" ? "none" : "block";
-  });
+document.getElementById("theme-toggle").addEventListener("click", () => {
+  document.body.classList.toggle("light-mode");
 });
 </script>
+    
+</body>
+</html>
+
 
 </body>
 </html>
