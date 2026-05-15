@@ -295,6 +295,12 @@ nav ul {
   background: #ccc !important;
 }
 
-.light-mode hero {
-  background: #ccc !important;
+.light-mode .hero {
+  background: #f0f0f0 !important;
+  color: #111 !important;
+}
+
+.light-mode .hero h2,
+.light-mode .hero p {
+  color: #111 !important;
 }
