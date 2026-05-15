@@ -260,3 +260,23 @@ nav ul {
   border-radius: 4px;
   display: block;
 }
+
+.accordion-btn {
+  width: 100%;
+  background: #111;
+  color: #00eaff;
+  padding: 12px;
+  border: 1px solid #222;
+  text-align: left;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px 15px;
+  background: #1a1f24;
+  border-left: 3px solid #00eaff;
+  margin-bottom: 10px;
+}
