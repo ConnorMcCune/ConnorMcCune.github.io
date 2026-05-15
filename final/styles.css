@@ -280,3 +280,17 @@ nav ul {
   border-left: 3px solid #00eaff;
   margin-bottom: 10px;
 }
+
+.light-mode {
+  background-color: #f4f4f4 !important;
+  color: #111 !important;
+}
+
+.light-mode nav {
+  background: #ddd !important;
+}
+
+.light-mode header,
+.light-mode footer {
+  background: #ccc !important;
+}
