@@ -304,3 +304,7 @@ nav ul {
 .light-mode .hero p {
   color: #111 !important;
 }
+
+.light-mode .hero img {
+  filter: brightness(0.9);
+}
